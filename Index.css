@@ -1,0 +1,259 @@
+body,
+html {
+  background-color: rgb(51, 66, 87);
+  height: 99%;
+  width: 99.8%;
+  font-family: "Poppins", sans-serif;
+}
+
+.cartas {
+  grid-column: 2;
+  grid-row: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-color: rgb(71, 96, 114);
+  border-bottom: 5px solid rgb(84, 140, 168);
+  border-left: 5px solid rgb(84, 140, 168);
+  border-right: 5px solid rgb(84, 140, 168);
+  
+}
+
+.boton {
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px 10px 10px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 200px;
+  background-color: rgb(84, 140, 168);
+  font-size: 30px;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+}
+
+.puntos {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(84, 140, 168);
+  align-items: center;
+  justify-content: center;
+}
+
+.botonsig {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(84, 140, 168);
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.siguiente {
+  grid-column: 1;
+  grid-row: 3;
+  border: 20px solid rgb(51, 66, 87);
+}
+
+.carta {
+  height: 275px;
+  width: 200px;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  justify-items: center;
+  border: 10px solid black;
+  background: whitesmoke;
+  border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+#numcarta1 {
+  justify-self: start;
+  margin: 10px 10px 10px 10px;
+}
+
+#numcarta2 {
+  justify-self: start;
+  margin: 10px 10px 10px 10px;
+}
+
+#simbolo1.oro {
+  height: 70px;
+  width: 70px;
+  background: yellow;
+  border: solid orange 5px;
+  border-radius: 70px;
+  margin: 0px auto;
+}
+
+#simbolo1.oro {
+  height: 70px;
+  width: 70px;
+  background: yellow;
+  border: solid orange 5px;
+  border-radius: 70px;
+  margin: 0px auto;
+}
+
+#simbolo2.oro {
+  height: 70px;
+  width: 70px;
+  background: yellow;
+  border: solid orange 5px;
+  border-radius: 70px;
+  margin: 0px auto;
+}
+
+#simbolo1.basto {
+  height: 70px;
+  width: 20px;
+  background-color: green;
+  border: solid yellowgreen 5px;
+  border-radius: 30px;
+  margin: 0px auto;
+}
+
+#simbolo2.basto {
+  height: 70px;
+  width: 20px;
+  background-color: green;
+  border: solid yellowgreen 5px;
+  border-radius: 30px;
+  margin: 0px auto;
+}
+
+#simbolo1.espada {
+  height: 80px;
+  width: 20px;
+  background-color: lightskyblue;
+  border-bottom: 20px solid gray;
+  margin: 0px auto;
+}
+
+#simbolo2.espada {
+  height: 80px;
+  width: 20px;
+  background-color: lightskyblue;
+  border-bottom: 20px solid gray;
+  margin: 0px auto;
+}
+
+#simbolo1.copa {
+  height: 75px;
+  width: 50px;
+  background-color: green;
+  border-bottom: 5px solid red;
+  border-left: 5px solid red;
+  border-right: 5px solid red;
+  margin: 0px auto;
+}
+
+#simbolo2.copa {
+  height: 75px;
+  width: 50px;
+  background-color: green;
+  border-bottom: 5px solid red;
+  border-left: 5px solid red;
+  border-right: 5px solid red;
+  margin: 0px auto;
+}
+
+.titulos {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(84, 140, 168);
+}
+
+#titulo {
+  color: white;
+}
+
+.relleno {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(84, 140, 168);
+}
+
+#subtitulo {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+  color: white;
+}
+
+#puntos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+  color: white;
+  background-color: rgb(71, 96, 114);
+  width: 100%;
+  height: 150px;
+  margin: 10px 10px 10px 10px;
+}
+
+.todo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  width: 99.5%;
+  height: 100%;
+  align-items: stretch;
+}
+.datos {
+  grid-column: 1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+}
+
+.botones {
+  grid-column: 1;
+  grid-row: 2;
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+
+.comparar {
+  height: 300px;
+  width: 200px;
+}
+
+.comparacion {
+  height: 300px;
+  width: 200px;
+}
+
+.boton:hover {
+  background-color: rgb(71, 96, 114);
+}
+.boton:active {
+  background-color: rgb(51, 66, 87);
+}
